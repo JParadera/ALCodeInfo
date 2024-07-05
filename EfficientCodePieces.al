@@ -11,11 +11,11 @@ actions
                   {
                       Image = CreateFrom;
                       ApplicationArea = All;
-                      Caption = 'Crear categoría cliente";
+                      Caption = 'Crear categoría cliente';
 
                       trigger OnAction();
                       var
-                        cuCreateCustCat: Codeunit "GEN Create Customer Category;
+                        cuCreateCustCat: Codeunit "GEN Create Customer Category";
 
                       begin
                           cuCreateCustCat.CreateCategory();
